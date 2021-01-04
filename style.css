@@ -2,12 +2,16 @@ body{
     font-family: 'Playfair Display', serif;
     margin: 0px;
 }
-.h3{
+.h2{
     color: tomato;
-    font-size: 30px;
+    font-size: 40px;
 }
 h1{
     font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    color: darkgoldenrod;
 }
 .text-color{
     color: rgb(226, 230, 22);
@@ -15,8 +19,8 @@ h1{
 .first-half{
     width: 40%;
     float: left;
-    margin: 3%;
-    padding: 2%;
+    margin-left: 5%;
+    padding-left: 2%;
 
 }
 .first-half img{
@@ -29,6 +33,7 @@ h1{
 }
 section{
     height: 500px;
+    bottom padding: 200px;
 }
 .link-button{
     text-decoration: none;
@@ -38,4 +43,9 @@ section{
     color: white;
     font-weight: 900px;
     
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat ;
+    background-position: right;
 }
